@@ -13,12 +13,12 @@ Our goal is to improve and streamline that process through a machine learning-ba
 Academic Analytics is a platform that allows universities to benchmark their research accomplishments against other peer institutions. One aspect of this is allowing them to compare awards. The client is interested in finding a more streamlined and accurate way to predict faculty’s likelihood of winning an award based on their academic history, including length of career and pathway awards. 
 
 ### Project Checklist
-Combine and clean the BU faculty award history datasets, resolving award name mismatches using similarity scoring.
-Engineer relevant features such as award prestige, academic age, and prior award count to support predictive modeling.
-Develop and evaluate multiple machine learning models (XGBoost, Random Forest, LightGBM) to predict the likelihood of faculty receiving specific awards.
-Identify pathways to high-prestige awards (e.g., American Academy of Arts and Sciences) and analyze trends in award progression.
-Validate model results by cross-referencing faculty known to have received awards.
-Document the data preprocessing pipeline, model performance, and limitations for future teams.
+* Combine and clean the BU faculty award history datasets, resolving award name mismatches using similarity scoring.
+* Engineer relevant features such as award prestige, academic age, and prior award count to support predictive modeling.
+* Develop and evaluate multiple machine learning models (XGBoost, Random Forest, LightGBM) to predict the likelihood of faculty receiving specific awards.
+* Identify pathways to high-prestige awards (e.g., American Academy of Arts and Sciences) and analyze trends in award progression.
+* Validate model results by cross-referencing faculty known to have received awards.
+* Document the data preprocessing pipeline, model performance, and limitations for future teams.
 
 ## Setup
 
