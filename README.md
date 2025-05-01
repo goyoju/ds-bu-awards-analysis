@@ -129,13 +129,13 @@ The most important files are the combine_dataset.ipynb in our combine_dataset fo
 Goal : Develop a machine learning system that predicts which BU faculty are most likely to win a given award based on their academic history.
 
 Approach :
-Combined and cleaned two datasets (Discipline Specific Pathways + RI Matches) using similarity matching.
-Trained 5 machine learning models (XGBoost, Random Forest, LightGBM, Support Vector Machine, Decision Tree) using features like academic age, discipline, and prior awards.
-Final model returns a ranked list of top candidates for any given award.
+* Combined and cleaned two datasets (Discipline Specific Pathways + RI Matches) using similarity matching.
+* Trained 5 machine learning models (XGBoost, Random Forest, LightGBM, Support Vector Machine, Decision Tree) using features like academic age, discipline, and prior awards.
+* Final model returns a ranked list of top candidates for any given award.
 
 Output : 
-For any selected award, the model returns a ranked list of top BU faculty with the highest likelihood of receiving it.
-Outputs include predicted probabilities and feature importances for interpretability.
+* For any selected award, the model returns a ranked list of top BU faculty with the highest likelihood of receiving it.
+* Outputs include predicted probabilities and feature importances for interpretability.
 
 Impact : Supports long-term goal of automating and scaling the award recommendation workflow.
 
